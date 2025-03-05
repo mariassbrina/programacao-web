@@ -20,7 +20,7 @@ let tString= "Meu nome é "+nome;
 
 console.log(tString);
 
-let tpString= `Meu cpf é ${cpf}`; //shift + ´´
+let tpString= `Meu cpf é ${cpf}`; //shift + ´´ 
 console.log(tpString);
 
 let verdadeiro = true;
