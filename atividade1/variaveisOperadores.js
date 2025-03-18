@@ -1,24 +1,23 @@
-//soma
-var a = 10, b = 21;
-var soma = a+b;
-console.log ( `O resultado da soma entre ${a} e ${b} é de ${soma}. ` );
+/*Exercício
+1 – No repositório de atividades, crie uma pasta atividade1 e crie o
+arquivo variaveisOperadores.js
+2 – Faça a declaração de 2 variáveis numéricas para cada operador
+e guarde o resultado da operação em uma terceira variável;
+3 – Para cada resultado obtido, imprima o texto “Resultado da
+{operação} entre {num_A} e {num_B}” */
 
-//subtracao
-var a = 11, b = 2;
-var subtracao = a-b;
-console.log ( `O resultado da subtracao entre ${a} e ${b} é de ${subtracao}. ` );
+let num_A = 2;
+let num_B = 3.0;
+let num_C;
 
-//multiplicacao
-var a = 30, b = 2;
-var multiplicacao = a*b;
-console.log ( `O resultado da multiplicacao entre ${a} e ${b} é de ${multiplicacao}. ` );
+num_C = num_A + num_B;
+console.log(`Resultado da adição entre ${num_A} e ${num_B} é ${num_C}`);
 
-//divisao
-var a = 45, b = 5;
-var divisao = a/b;
-console.log ( `O resultado da divisao entre ${a} e ${b} é de ${divisao}. ` );
+num_C = num_A - num_B;
+console.log(`Resultado da subtração entre ${num_A} e ${num_B} é ${num_C}`);
 
-//modulo: resto da divisão
-var a = 17, b = 9;
-var modulo = a%b;
-console.log ( `O resultado do modulo entre ${a} e ${b} é de ${modulo}. ` );
+num_C = num_A * num_B;
+console.log(`Resultado da multiplicação entre ${num_A} e ${num_B} é ${num_C}`);
+
+num_C = num_A / num_B;
+console.log(`Resultado da divisão entre ${num_A} e ${num_B} é ${num_C}`);
