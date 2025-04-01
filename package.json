@@ -1,0 +1,22 @@
+{
+  "name": "programacao-web-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariassbrina/programacao-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariassbrina/programacao-web/issues"
+  },
+  "homepage": "https://github.com/mariassbrina/programacao-web#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
