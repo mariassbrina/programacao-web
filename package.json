@@ -1,0 +1,16 @@
+{
+  "name": "atividade4",
+  "version": "1.0.0",
+  "description": "Aplicação com rotas para gerenciamento de estoque",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "serve": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
